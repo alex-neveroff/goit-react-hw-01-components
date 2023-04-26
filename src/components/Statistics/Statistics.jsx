@@ -8,6 +8,7 @@ import {
   Label,
   Quantity,
 } from './Statistics.styled';
+
 export const Statistics = ({ title, stats }) => {
   return (
     <StatsTable>

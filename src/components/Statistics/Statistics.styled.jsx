@@ -28,6 +28,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   width: 60px;
   height: 100px;
 `;
