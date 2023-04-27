@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
   padding-top: 30px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 

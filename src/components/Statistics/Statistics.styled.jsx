@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatsTable = styled.section`
-  margin-bottom: 50px;
+  width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
