@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
   padding-top: 30px;
-  width: 300px;
-  margin: 30px auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
@@ -43,9 +43,7 @@ export const StatsList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 300px;
   height: 80px;
-
   background-color: aquamarine;
 `;
 

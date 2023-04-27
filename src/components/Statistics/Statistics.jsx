@@ -15,12 +15,7 @@ export const Statistics = ({ title, stats }) => {
       {title && <Title>{title}</Title>}
       <StatsList>
         {stats.map(({ id, label, percentage }) => (
-          <StatsItem
-            style={{
-              backgroundColor: getRandomColor(),
-            }}
-            key={id}
-          >
+          <StatsItem bgColor={getRandomColor()} key={id}>
             <Label>{label}</Label>
             <Quantity>{percentage}</Quantity>
           </StatsItem>

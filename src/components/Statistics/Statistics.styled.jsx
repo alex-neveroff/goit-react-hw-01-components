@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatsTable = styled.section`
-  width: 300px;
-  margin: 0 auto 30px auto;
+  margin-bottom: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
@@ -31,6 +30,9 @@ export const StatsItem = styled.li`
   gap: 8px;
   width: 60px;
   height: 100px;
+  background-color: ${({ bgColor }) => {
+    return bgColor;
+  }};
 `;
 
 export const Label = styled.span`
