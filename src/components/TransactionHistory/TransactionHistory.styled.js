@@ -25,13 +25,13 @@ export const Data = styled.tr`
   background-color: ${({ DataType }) => {
     switch (DataType) {
       case 'deposit':
-        return '#87CEFA';
+        return '#E6E6FA';
       case 'invoice':
         return '#98FB98';
       case 'withdrawal':
         return '#FFDAB9';
       case 'payment':
-        return '#E6E6FA';
+        return '#87CEFA';
       default:
         return 'white';
     }
